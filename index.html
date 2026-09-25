@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>IT301 Sep 22nd, 2026 - Flex Box Cont</title>
+
+        <style>
+            body > div 
+            {
+                display: flex;
+                height: 100vh;
+            }
+
+            #flexParent1
+            {
+                display: flex;
+                background-color: orange;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 150px;
+            }
+
+            #Camera, #Files, #Heart, #Trash
+            {
+                font-size: 40px;
+                padding: 40px;
+            }
+            #flexParent2
+            {
+                display: flex;
+                flex-wrap: wrap;
+                align-content: center;
+                align-items: center;
+                flex-direction: row;
+                overflow-y: auto;
+            }
+
+            #flexParent2 > div
+            {
+                margin: 5px;
+            }
+
+
+        </style>
+    </head>
+
+    <body>
+        <div id = "mainParent">
+            <div id = "flexParent1">
+                <div class = "top">
+                    <div id="Camera">&#x1F4F7;</div>
+                    <div id="Files">&#x1F5C4;&#xfe0f;</div>
+                    <div id="Heart">&#x2764;&#xfe0f;</div>
+                </div>
+
+                <div class = "bottom">
+                    <div id="Trash">&#x1F5D1;&#xfe0f;</div>
+                </div>
+            </div>
+
+            <div id = "flexParent2">
+                <div id="child1"><img src="https://picsum.photos/320/100" alt="Random Image 1"></div>
+                <div id="child2"><img src="https://picsum.photos/145/100" alt="Random Image 2"></div>
+                <div id="child3"><img src="https://picsum.photos/310/100" alt="Random Image 3"></div>
+                <div id="child4"><img src="https://picsum.photos/235/100" alt="Random Image 4"></div>
+                <div id="child5"><img src="https://picsum.photos/175/100" alt="Random Image 5"></div>
+                <div id="child6"><img src="https://picsum.photos/380/100" alt="Random Image 6"></div>
+                <div id="child7"><img src="https://picsum.photos/265/100" alt="Random Image 7"></div>
+                <div id="child8"><img src="https://picsum.photos/395/100" alt="Random Image 8"></div>
+                <div id="child9"><img src="https://picsum.photos/155/100" alt="Random Image 9"></div>
+                <div id="child10"><img src="https://picsum.photos/345/100" alt="Random Image 10"></div>
+                <div id="child11"><img src="https://picsum.photos/220/100" alt="Random Image 11"></div>
+                <div id="child12"><img src="https://picsum.photos/400/100" alt="Random Image 12"></div>
+                <div id="child13"><img src="https://picsum.photos/190/100" alt="Random Image 13"></div>
+                <div id="child14"><img src="https://picsum.photos/285/100" alt="Random Image 14"></div>
+                <div id="child15"><img src="https://picsum.photos/365/100" alt="Random Image 15"></div>
+                <div id="child16"><img src="https://picsum.photos/130/100" alt="Random Image 16"></div>
+                <div id="child17"><img src="https://picsum.photos/360/100" alt="Random Image 17"></div>
+                <div id="child18"><img src="https://picsum.photos/250/100" alt="Random Image 18"></div>
+                <div id="child19"><img src="https://picsum.photos/300/100" alt="Random Image 19"></div>
+                <div id="child20"><img src="https://picsum.photos/205/100" alt="Random Image 20"></div>
+                <div id="child21"><img src="https://picsum.photos/320/100" alt="Random Image 21"></div>
+                <div id="child22"><img src="https://picsum.photos/145/100" alt="Random Image 22"></div>
+                <div id="child23"><img src="https://picsum.photos/310/100" alt="Random Image 23"></div>
+                <div id="child24"><img src="https://picsum.photos/235/100" alt="Random Image 24"></div>
+                <div id="child25"><img src="https://picsum.photos/175/100" alt="Random Image 25"></div>
+                <div id="child26"><img src="https://picsum.photos/380/100" alt="Random Image 26"></div>
+                <div id="child27"><img src="https://picsum.photos/265/100" alt="Random Image 27"></div>
+                <div id="child28"><img src="https://picsum.photos/395/100" alt="Random Image 28"></div>
+                <div id="child29"><img src="https://picsum.photos/155/100" alt="Random Image 29"></div>
+                <div id="child30"><img src="https://picsum.photos/345/100" alt="Random Image 30"></div>
+                <div id="child31"><img src="https://picsum.photos/220/100" alt="Random Image 31"></div>
+                <div id="child32"><img src="https://picsum.photos/400/100" alt="Random Image 32"></div>
+                <div id="child33"><img src="https://picsum.photos/190/100" alt="Random Image 33"></div>
+                <div id="child34"><img src="https://picsum.photos/285/100" alt="Random Image 34"></div>
+                <div id="child35"><img src="https://picsum.photos/365/100" alt="Random Image 35"></div>
+                <div id="child36"><img src="https://picsum.photos/130/100" alt="Random Image 36"></div>
+                <div id="child37"><img src="https://picsum.photos/360/100" alt="Random Image 37"></div>
+                <div id="child38"><img src="https://picsum.photos/250/100" alt="Random Image 38"></div>
+                <div id="child39"><img src="https://picsum.photos/300/100" alt="Random Image 39"></div>
+                <div id="child40"><img src="https://picsum.photos/205/100" alt="Random Image 40"></div>
+            </div>
+        </div>
+    </body>
+</html>
